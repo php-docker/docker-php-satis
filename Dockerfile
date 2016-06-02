@@ -17,3 +17,4 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 ADD files/nginx.conf /etc/nginx/nginx.conf
 ADD files/satis.php /satisfy/app/config.php
 ADD files/satis.json /satisfy/app/config.json
+RUN chmod a+rw /satisfy/app/config.json
