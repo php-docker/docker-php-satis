@@ -1,4 +1,4 @@
-FROM fabioluciano/docker-php-alpine:latest
+FROM fabioluciano/docker-alpine-php:latest
 
 MAINTAINER Fábio Luciano <fabio.goisl@ctis.com.br>
 
