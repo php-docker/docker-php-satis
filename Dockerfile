@@ -1,6 +1,6 @@
 FROM fabioluciano/docker-alpine-php:latest
 
-MAINTAINER Fábio Luciano <fabio@naoimporta.com>
+MAINTAINER Fábio Luciano <fabioluciano@php.net>
 
 RUN apk update && \
   apk upgrade && \
